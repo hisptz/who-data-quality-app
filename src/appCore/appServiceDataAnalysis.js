@@ -97,7 +97,6 @@ export default function ($q, requestService, mathService, d2Meta, d2Map) {
 			indicatorOutlierAnalysis(queueItem.parameters);
 		}
 		else if (queueItem.type === "outlierGap") {
-			console.log("outlierGapAnalysis");
 			outlierGapAnalysis(queueItem.parameters);
 		}
 	}
